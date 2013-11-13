@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Cuestionarios 3.0</title>
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
+		<link href="./css/estilo.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container"> <!-- Centramos la pagina -->
+				<div class="navbar-header"> <!-- Cabecera del navbar -->
+					<a class="navbar-brand">Cuestionario 3.0</a>
+				</div>
+				<div class="collapse navbar-collapse"> <!-- Menú del navbar -->
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Ayuda</a></li>
+						<li><a href="#">Contactar</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<ol class="breadcrumb">
+			  <li class="active">Home</li> <!-- Establecer active significa marcar como gris -->
+			</ol>
+		</div>
+
+		<div class="container">
+			<div class="jumbotron">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="container container_fondo1">
+							<form action="pepe.php" onsubmit="return validar_form();">
+								<h4><span class="glyphicon glyphicon-user ajustar_icono"></span>Usuario:</h4>
+								<input type="text" class="form-control" placeholder="Usuario">
+								<h4><span class="glyphicon glyphicon-pencil ajustar_icono"></span>Contraseña:</h4>
+								<input type="password" class="form-control" placeholder="Contraseña">
+								<div class="row ajustar_row1"> <!-- Clase: Ajustar Row -->
+									<div class="col-lg-6">
+										<input type="submit" value="Iniciar sesión" class="btn btn-success ajustar_boton">
+									</div>
+									<div class="col-lg-6">
+										<input type="button" class="btn btn-success ajustar_boton" value="Registrarse" onclick="window.location='http://www.google.es'">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="container container_fondo1">
+							<p>Video</p>
+						</div>
+					</div>
+				</div>
+				<div class="row ajustar_row2">
+					<h4>Proyecto X</h4>
+					<div class="col-lg-4">
+						<div class="container container_fondo2">
+							img1
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="container container_fondo2">
+							img2
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="container container_fondo2">
+							img3
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		 <!-- jQuery necesario para los plugins de bootstrap -->
+	    <script src="https://code.jquery.com/jquery.js"></script>
+	    <!-- Incluye todos los plugins compilados -->
+	    <script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>

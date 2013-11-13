@@ -1,0 +1,43 @@
+body {
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.container_fondo1 {
+	height: 350px;
+	padding: 60px 90px;
+	border-radius: 6px;
+	margin-bottom: 1%;
+	background-color: #D8D8D8;
+}
+
+.container_fondo2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 6px;
+	background-color: white;
+}
+
+.row  h4 {
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.ajustar_icono {
+	margin-right: 4%;
+}
+
+.ajustar_row1 {
+	margin-top: 10px;
+}
+
+.ajustar_row2 {
+	margin: 5px 0;
+	border-radius: 6px;
+	padding-bottom: 6px;
+	background-color: #D8D8D8;
+}
+
+.ajustar_boton {
+	width: 100%;
+}
